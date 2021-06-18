@@ -7,7 +7,7 @@ do
     turtle.refuel()  
   end
 
-  print("Fuel: " . fuel)
+  print("Fuel: " .. fuel)
 
   turtle.digDown()
   turtle.down()
